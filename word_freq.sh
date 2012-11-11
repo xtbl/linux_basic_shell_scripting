@@ -1,6 +1,7 @@
 #!/bin/bash
    #Name: word_freq.sh
-   #Description: Find out frequency of words in a file
+   #Description: Find word frequency
+   #how to use: $ ./word_freq.sh palabras.txt
    if [ $# -ne 1 ];
    then
    echo "Usage: $0 filename";
